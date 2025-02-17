@@ -11,7 +11,7 @@ IBM Cloud® Code Engine is a fully managed, serverless platform that runs your c
 
 ## Howto setup the environment
 
-First, you need to deploy a VCFAAS instance on some of the sites. Then create your VMs and tag them with metadata (`ibm.manager.up` and `ibm.manager.down`). You can also use the provided [tagging utility](../tagging/README.md).
+First, you need to deploy a VCFAAS instance on some of the sites. Then create your VMs and tag them with metadata (`ibm.manager.up` and `ibm.manager.down`). 
 
 Current tags function as follows:
 
@@ -24,4 +24,4 @@ A tagged VM metadata should look like:
 
 ![VM tagged with metadata](./images/tagged_VM.png)
 
-[Code engine scripts](../code_engine/README.md) are created to simplify the process to build an IBM Cloud® Code Engine project and an indefinitely running VCFaaS Virtual Machine Scheduler job running as a daemon.
+[Code engine scripts](./code_engine/README.md) are created to simplify the process to build an IBM Cloud® Code Engine project and an indefinitely running VCFaaS Virtual Machine Scheduler job running as a daemon.
