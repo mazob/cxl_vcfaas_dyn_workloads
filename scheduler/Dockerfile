@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "./vmscheduler.py" ]
+CMD [ "python", "/usr/src/app/vmscheduler.py" ]
