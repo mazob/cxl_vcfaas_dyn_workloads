@@ -66,7 +66,7 @@ def get_vmware_access_token(ibm_iam_access_token: str, url: str, org: str) -> st
     endpoint_url = "/".join([url, "cloudapi", "1.0.0", "sessions"])
 
     headers = {"Authorization": f"Bearer {ibm_iam_access_token}; org={org}",
-               "Accept": "application/*;version=36.2"}
+               "Accept": "application/*;version=39.0"}
 
     log.debug("Requesting VMWare Access Token")
     r = s.post(url=endpoint_url, headers=headers)
